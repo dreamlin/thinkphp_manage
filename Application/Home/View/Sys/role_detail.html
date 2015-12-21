@@ -1,0 +1,19 @@
+<form id="bt_role_from" class="form">
+    <table align="center">
+        <tr>
+            <td>名称：</td>
+            <td><input name="text" class="easyui-validatebox" required="required" type="text" value="${$data['text']}" style="width: 352px;"/></td>
+        </tr>
+        <tr>
+            <td>状态：</td>
+            <td><input name="status" type="radio" ${if $data['status']==0} checked="checked" ${/if} value="0"/>可用 <input name="status" type="radio" ${if $data['status']==1} checked="checked" ${/if} value="1"/>禁用 </td>
+        </tr>
+        <tr>
+            <td>备注：</td>
+            <td>
+                <textarea name="remark" style="width: 348px;resize: none;height: 60px;">${$data['remark']}</textarea>
+            </td>
+        </tr>
+    </table>
+    <input type="hidden" name="role_id" value="${$data['role_id']}">
+</form>

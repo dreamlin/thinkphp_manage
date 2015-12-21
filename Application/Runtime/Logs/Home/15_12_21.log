@@ -1,0 +1,2468 @@
+[ 2015-12-21T11:14:25+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020002s ]
+INFO: [ action_begin ] --START--
+
+[ 2015-12-21T11:14:26+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.264026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.264026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012002s ]
+
+[ 2015-12-21T11:14:26+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-21T11:14:31+08:00 ] 127.0.0.1 /index/loginPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2015-12-21T11:14:46+08:00 ] 127.0.0.1 /index/loginPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sys_user` WHERE ( user_name='admin' and password='e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0750s ]
+SQL: SELECT * FROM `sys_role_user` WHERE ( user_id=1 )  [ RunTime:0.0430s ]
+SQL: SELECT * FROM `sys_menu` ORDER BY seq asc  [ RunTime:0.0490s ]
+NOTIC: [8] Undefined variable: functionList E:\PHPWorkspace\thinkphp_manage\Application\Home\Controller\IndexController.class.php 第 106 行.
+
+[ 2015-12-21T11:14:46+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-12-21T11:14:47+08:00 ] 127.0.0.1 /index/welcome?_=1450667686789
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.002001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T11:14:48+08:00 ] 127.0.0.1 /sys/menuList?_=1450667688349
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T11:14:48+08:00 ] 127.0.0.1 /sys/menuData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_menu` ORDER BY seq asc  [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:14:49+08:00 ] 127.0.0.1 /sys/functionList?_=1450667689113
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-21T11:14:49+08:00 ] 127.0.0.1 /sys/menuTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_menu` ORDER BY seq asc  [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:14:49+08:00 ] 127.0.0.1 /sys/functionData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT sys_function.*,sys_menu.text as relegation FROM `sys_function` INNER JOIN sys_menu ON sys_menu.menu_id = sys_function.menu_id  LIMIT 0,20   [ RunTime:0.0740s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_function` LIMIT 1   [ RunTime:0.0090s ]
+
+[ 2015-12-21T11:14:49+08:00 ] 127.0.0.1 /sys/userList?_=1450667689670
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-12-21T11:14:49+08:00 ] 127.0.0.1 /sys/userData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_user` LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-12-21T11:14:50+08:00 ] 127.0.0.1 /sys/roleList?_=1450667690289
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T11:14:50+08:00 ] 127.0.0.1 /sys/roleData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sys_role` LIMIT 0,20   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_role` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:14:50+08:00 ] 127.0.0.1 /sys/orgList?_=1450667690825
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T11:14:51+08:00 ] 127.0.0.1 /sys/orgData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_org`  [ RunTime:0.0520s ]
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+
+[ 2015-12-21T11:14:51+08:00 ] 127.0.0.1 /sys/menuList?_=1450667691821
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T11:14:51+08:00 ] 127.0.0.1 /sys/menuData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_menu` ORDER BY seq asc  [ RunTime:0.0000s ]
+
+[ 2015-12-21T11:14:53+08:00 ] 127.0.0.1 /sys/menuList?_=1450667693792
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T11:14:53+08:00 ] 127.0.0.1 /sys/menuData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_menu` ORDER BY seq asc  [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:14:54+08:00 ] 127.0.0.1 /sys/functionList?_=1450667694613
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-12-21T11:14:54+08:00 ] 127.0.0.1 /sys/menuTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_menu` ORDER BY seq asc  [ RunTime:0.0000s ]
+
+[ 2015-12-21T11:14:54+08:00 ] 127.0.0.1 /sys/functionData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT sys_function.*,sys_menu.text as relegation FROM `sys_function` INNER JOIN sys_menu ON sys_menu.menu_id = sys_function.menu_id  LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_function` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-12-21T11:14:56+08:00 ] 127.0.0.1 /sys/functionData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT sys_function.*,sys_menu.text as relegation FROM `sys_function` INNER JOIN sys_menu ON sys_menu.menu_id = sys_function.menu_id  WHERE ( sys_function.menu_id = 94 ) LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_function` WHERE ( menu_id = 94 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-12-21T11:14:56+08:00 ] 127.0.0.1 /sys/functionData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT sys_function.*,sys_menu.text as relegation FROM `sys_function` INNER JOIN sys_menu ON sys_menu.menu_id = sys_function.menu_id  WHERE ( sys_function.menu_id = 95 ) LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_function` WHERE ( menu_id = 95 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:14:58+08:00 ] 127.0.0.1 /sys/roleList?_=1450667698055
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T11:14:58+08:00 ] 127.0.0.1 /sys/roleData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_role` LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_role` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:14:58+08:00 ] 127.0.0.1 /sys/userList?_=1450667698464
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-21T11:14:58+08:00 ] 127.0.0.1 /sys/userData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_user` LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:14:58+08:00 ] 127.0.0.1 /sys/functionList?_=1450667698901
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T11:14:59+08:00 ] 127.0.0.1 /sys/menuTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `sys_menu` ORDER BY seq asc  [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:14:59+08:00 ] 127.0.0.1 /sys/functionData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT sys_function.*,sys_menu.text as relegation FROM `sys_function` INNER JOIN sys_menu ON sys_menu.menu_id = sys_function.menu_id  LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_function` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:14:59+08:00 ] 127.0.0.1 /sys/menuList?_=1450667699289
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-12-21T11:14:59+08:00 ] 127.0.0.1 /sys/menuData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_menu` ORDER BY seq asc  [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:15:00+08:00 ] 127.0.0.1 /sys/menuList?_=1450667700723
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-12-21T11:15:00+08:00 ] 127.0.0.1 /sys/menuData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sys_menu` ORDER BY seq asc  [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:15:01+08:00 ] 127.0.0.1 /sys/functionList?_=1450667701138
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-12-21T11:15:01+08:00 ] 127.0.0.1 /sys/menuTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_menu` ORDER BY seq asc  [ RunTime:0.0020s ]
+
+[ 2015-12-21T11:15:01+08:00 ] 127.0.0.1 /sys/functionData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT sys_function.*,sys_menu.text as relegation FROM `sys_function` INNER JOIN sys_menu ON sys_menu.menu_id = sys_function.menu_id  LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_function` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-12-21T11:15:01+08:00 ] 127.0.0.1 /sys/userList?_=1450667701610
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-21T11:15:01+08:00 ] 127.0.0.1 /sys/userData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_user` LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:15:02+08:00 ] 127.0.0.1 /sys/roleList?_=1450667702036
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T11:15:02+08:00 ] 127.0.0.1 /sys/roleData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sys_role` LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_role` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-12-21T11:15:02+08:00 ] 127.0.0.1 /sys/orgList?_=1450667702506
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T11:15:02+08:00 ] 127.0.0.1 /sys/orgData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_org`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+
+[ 2015-12-21T11:15:03+08:00 ] 127.0.0.1 /sys/orgUserData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT sys_user.* FROM `sys_org_user` INNER JOIN sys_user ON sys_user.user_id = sys_org_user.user_id  WHERE `org_id` = '5' LIMIT 0,20   [ RunTime:0.0870s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_org_user` WHERE `org_id` = '5' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:15:04+08:00 ] 127.0.0.1 /sys/orgUserData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT sys_user.* FROM `sys_org_user` INNER JOIN sys_user ON sys_user.user_id = sys_org_user.user_id  WHERE `org_id` = '4' LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_org_user` WHERE `org_id` = '4' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:15:04+08:00 ] 127.0.0.1 /sys/orgUserData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT sys_user.* FROM `sys_org_user` INNER JOIN sys_user ON sys_user.user_id = sys_org_user.user_id  WHERE `org_id` = '2' LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_org_user` WHERE `org_id` = '2' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:15:05+08:00 ] 127.0.0.1 /sys/orgUserData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT sys_user.* FROM `sys_org_user` INNER JOIN sys_user ON sys_user.user_id = sys_org_user.user_id  WHERE `org_id` = '1' LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_org_user` WHERE `org_id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:15:05+08:00 ] 127.0.0.1 /sys/roleList?_=1450667705768
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-12-21T11:15:06+08:00 ] 127.0.0.1 /sys/roleData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_role` LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_role` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:15:06+08:00 ] 127.0.0.1 /sys/userList?_=1450667706495
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T11:15:06+08:00 ] 127.0.0.1 /sys/userData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sys_user` LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:15:18+08:00 ] 127.0.0.1 /sys/roleList?_=1450667718147
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T11:15:18+08:00 ] 127.0.0.1 /sys/roleData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_role` LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_role` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:15:19+08:00 ] 127.0.0.1 /sys/roleFunctionData?role_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT rf.id,f.text,f.menu_id AS pid,f.function_id AS tid,1 TYPE 
+            FROM ( SELECT * FROM sys_role_function rf WHERE rf.role_id = 4 AND rf.type = 1 ) rf 
+            JOIN sys_function f ON f.function_id = rf.mf_id 
+            UNION 
+            SELECT rf.id,m.text,m.pid,m.menu_id AS tid,0 
+            FROM ( SELECT * FROM sys_role_function rf WHERE rf.role_id = 4 AND rf.type = 0 ) rf 
+            JOIN sys_menu m ON m.menu_id = rf.mf_id [ RunTime:0.0530s ]
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+
+[ 2015-12-21T11:15:19+08:00 ] 127.0.0.1 /sys/roleUserData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT sys_user.* FROM `sys_role_user` INNER JOIN sys_user ON sys_user.user_id = sys_role_user.user_id  WHERE `role_id` = '4' LIMIT 0,20   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_role_user` WHERE `role_id` = '4' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:15:20+08:00 ] 127.0.0.1 /sys/roleFunctionData?role_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT rf.id,f.text,f.menu_id AS pid,f.function_id AS tid,1 TYPE 
+            FROM ( SELECT * FROM sys_role_function rf WHERE rf.role_id = 3 AND rf.type = 1 ) rf 
+            JOIN sys_function f ON f.function_id = rf.mf_id 
+            UNION 
+            SELECT rf.id,m.text,m.pid,m.menu_id AS tid,0 
+            FROM ( SELECT * FROM sys_role_function rf WHERE rf.role_id = 3 AND rf.type = 0 ) rf 
+            JOIN sys_menu m ON m.menu_id = rf.mf_id [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+
+[ 2015-12-21T11:15:20+08:00 ] 127.0.0.1 /sys/roleUserData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT sys_user.* FROM `sys_role_user` INNER JOIN sys_user ON sys_user.user_id = sys_role_user.user_id  WHERE `role_id` = '3' LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_role_user` WHERE `role_id` = '3' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:15:22+08:00 ] 127.0.0.1 /sys/roleFunctionData?role_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT rf.id,f.text,f.menu_id AS pid,f.function_id AS tid,1 TYPE 
+            FROM ( SELECT * FROM sys_role_function rf WHERE rf.role_id = 4 AND rf.type = 1 ) rf 
+            JOIN sys_function f ON f.function_id = rf.mf_id 
+            UNION 
+            SELECT rf.id,m.text,m.pid,m.menu_id AS tid,0 
+            FROM ( SELECT * FROM sys_role_function rf WHERE rf.role_id = 4 AND rf.type = 0 ) rf 
+            JOIN sys_menu m ON m.menu_id = rf.mf_id [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+
+[ 2015-12-21T11:15:22+08:00 ] 127.0.0.1 /sys/roleUserData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT sys_user.* FROM `sys_role_user` INNER JOIN sys_user ON sys_user.user_id = sys_role_user.user_id  WHERE `role_id` = '4' LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_role_user` WHERE `role_id` = '4' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-12-21T11:15:24+08:00 ] 127.0.0.1 /sys/orgList?_=1450667723941
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T11:15:24+08:00 ] 127.0.0.1 /sys/orgData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `sys_org`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+
+[ 2015-12-21T11:15:24+08:00 ] 127.0.0.1 /sys/orgUserData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT sys_user.* FROM `sys_org_user` INNER JOIN sys_user ON sys_user.user_id = sys_org_user.user_id  WHERE `org_id` = '5' LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_org_user` WHERE `org_id` = '5' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:15:25+08:00 ] 127.0.0.1 /sys/orgUserData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT sys_user.* FROM `sys_org_user` INNER JOIN sys_user ON sys_user.user_id = sys_org_user.user_id  WHERE `org_id` = '4' LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_org_user` WHERE `org_id` = '4' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:15:26+08:00 ] 127.0.0.1 /sys/orgUserData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT sys_user.* FROM `sys_org_user` INNER JOIN sys_user ON sys_user.user_id = sys_org_user.user_id  WHERE `org_id` = '2' LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_org_user` WHERE `org_id` = '2' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:15:27+08:00 ] 127.0.0.1 /sys/roleList?_=1450667727174
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T11:15:27+08:00 ] 127.0.0.1 /sys/roleData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_role` LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_role` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:15:27+08:00 ] 127.0.0.1 /sys/functionList?_=1450667727591
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-21T11:15:27+08:00 ] 127.0.0.1 /sys/menuTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `sys_menu` ORDER BY seq asc  [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:15:27+08:00 ] 127.0.0.1 /sys/functionData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT sys_function.*,sys_menu.text as relegation FROM `sys_function` INNER JOIN sys_menu ON sys_menu.menu_id = sys_function.menu_id  LIMIT 0,20   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_function` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:15:28+08:00 ] 127.0.0.1 /sys/functionData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT sys_function.*,sys_menu.text as relegation FROM `sys_function` INNER JOIN sys_menu ON sys_menu.menu_id = sys_function.menu_id  WHERE ( sys_function.menu_id = 95 ) LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_function` WHERE ( menu_id = 95 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-12-21T11:15:29+08:00 ] 127.0.0.1 /sys/functionData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT sys_function.*,sys_menu.text as relegation FROM `sys_function` INNER JOIN sys_menu ON sys_menu.menu_id = sys_function.menu_id  WHERE ( sys_function.menu_id = 94 ) LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_function` WHERE ( menu_id = 94 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-12-21T11:15:29+08:00 ] 127.0.0.1 /sys/functionData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT sys_function.*,sys_menu.text as relegation FROM `sys_function` INNER JOIN sys_menu ON sys_menu.menu_id = sys_function.menu_id  WHERE ( sys_function.menu_id = 96 ) LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_function` WHERE ( menu_id = 96 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:15:30+08:00 ] 127.0.0.1 /sys/functionData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT sys_function.*,sys_menu.text as relegation FROM `sys_function` INNER JOIN sys_menu ON sys_menu.menu_id = sys_function.menu_id  WHERE ( sys_function.menu_id = 98 ) LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_function` WHERE ( menu_id = 98 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-12-21T11:15:31+08:00 ] 127.0.0.1 /sys/functionData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT sys_function.*,sys_menu.text as relegation FROM `sys_function` INNER JOIN sys_menu ON sys_menu.menu_id = sys_function.menu_id  WHERE ( sys_function.menu_id = 97 ) LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_function` WHERE ( menu_id = 97 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-12-21T11:15:31+08:00 ] 127.0.0.1 /sys/functionData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT sys_function.*,sys_menu.text as relegation FROM `sys_function` INNER JOIN sys_menu ON sys_menu.menu_id = sys_function.menu_id  WHERE ( sys_function.menu_id = 94 ) LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_function` WHERE ( menu_id = 94 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-12-21T11:15:32+08:00 ] 127.0.0.1 /sys/menuList?_=1450667732411
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T11:15:32+08:00 ] 127.0.0.1 /sys/menuData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_menu` ORDER BY seq asc  [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:15:37+08:00 ] 127.0.0.1 /sys/functionList?_=1450667737559
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-21T11:15:37+08:00 ] 127.0.0.1 /sys/menuTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_menu` ORDER BY seq asc  [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:15:37+08:00 ] 127.0.0.1 /sys/functionData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT sys_function.*,sys_menu.text as relegation FROM `sys_function` INNER JOIN sys_menu ON sys_menu.menu_id = sys_function.menu_id  LIMIT 0,20   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_function` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-12-21T11:15:38+08:00 ] 127.0.0.1 /sys/userList?_=1450667737949
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T11:15:38+08:00 ] 127.0.0.1 /sys/userData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_user` LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:15:38+08:00 ] 127.0.0.1 /sys/orgList?_=1450667738474
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T11:15:38+08:00 ] 127.0.0.1 /sys/orgData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_org`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+
+[ 2015-12-21T11:15:38+08:00 ] 127.0.0.1 /sys/roleList?_=1450667738920
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T11:15:39+08:00 ] 127.0.0.1 /sys/roleData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_role` LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_role` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:26:09+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-12-21T11:26:09+08:00 ] 127.0.0.1 /index/welcome?_=1450668369272
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T11:26:10+08:00 ] 127.0.0.1 /sys/roleList?_=1450668370420
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T11:26:10+08:00 ] 127.0.0.1 /sys/roleData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_role` LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_role` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:26:11+08:00 ] 127.0.0.1 /sys/orgList?_=1450668371201
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T11:26:11+08:00 ] 127.0.0.1 /sys/orgData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_org`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+
+[ 2015-12-21T11:26:11+08:00 ] 127.0.0.1 /sys/roleList?_=1450668371912
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T11:26:12+08:00 ] 127.0.0.1 /sys/roleData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_role` LIMIT 0,20   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_role` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:26:12+08:00 ] 127.0.0.1 /sys/userList?_=1450668372328
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-12-21T11:26:12+08:00 ] 127.0.0.1 /sys/userData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `sys_user` LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-12-21T11:26:15+08:00 ] 127.0.0.1 /sys/functionList?_=1450668375675
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T11:26:15+08:00 ] 127.0.0.1 /sys/menuTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_menu` ORDER BY seq asc  [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:26:15+08:00 ] 127.0.0.1 /sys/functionData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT sys_function.*,sys_menu.text as relegation FROM `sys_function` INNER JOIN sys_menu ON sys_menu.menu_id = sys_function.menu_id  LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_function` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:26:16+08:00 ] 127.0.0.1 /sys/menuList?_=1450668376121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-12-21T11:26:16+08:00 ] 127.0.0.1 /sys/menuData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_menu` ORDER BY seq asc  [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:26:16+08:00 ] 127.0.0.1 /sys/functionList?_=1450668376896
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-21T11:26:17+08:00 ] 127.0.0.1 /sys/menuTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_menu` ORDER BY seq asc  [ RunTime:0.0000s ]
+
+[ 2015-12-21T11:26:17+08:00 ] 127.0.0.1 /sys/functionData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT sys_function.*,sys_menu.text as relegation FROM `sys_function` INNER JOIN sys_menu ON sys_menu.menu_id = sys_function.menu_id  LIMIT 0,20   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_function` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:26:17+08:00 ] 127.0.0.1 /sys/userList?_=1450668377313
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-21T11:26:17+08:00 ] 127.0.0.1 /sys/userData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `sys_user` LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-12-21T11:26:17+08:00 ] 127.0.0.1 /sys/roleList?_=1450668377767
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-12-21T11:26:17+08:00 ] 127.0.0.1 /sys/roleData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_role` LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_role` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-12-21T11:26:18+08:00 ] 127.0.0.1 /sys/orgList?_=1450668378308
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T11:26:18+08:00 ] 127.0.0.1 /sys/orgData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_org`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+
+[ 2015-12-21T11:26:19+08:00 ] 127.0.0.1 /sys/roleList?_=1450668379127
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T11:26:19+08:00 ] 127.0.0.1 /sys/roleData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_role` LIMIT 0,20   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_role` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:26:19+08:00 ] 127.0.0.1 /sys/userList?_=1450668379472
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-21T11:26:19+08:00 ] 127.0.0.1 /sys/userData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_user` LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:26:19+08:00 ] 127.0.0.1 /sys/functionList?_=1450668379844
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T11:26:19+08:00 ] 127.0.0.1 /sys/menuTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_menu` ORDER BY seq asc  [ RunTime:0.0010s ]
+
+[ 2015-12-21T11:26:20+08:00 ] 127.0.0.1 /sys/functionData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT sys_function.*,sys_menu.text as relegation FROM `sys_function` INNER JOIN sys_menu ON sys_menu.menu_id = sys_function.menu_id  LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_function` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-12-21T11:26:20+08:00 ] 127.0.0.1 /sys/menuList?_=1450668380336
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-12-21T11:26:20+08:00 ] 127.0.0.1 /sys/menuData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_menu` ORDER BY seq asc  [ RunTime:0.0000s ]
+
+[ 2015-12-21T13:24:57+08:00 ] 127.0.0.1 /sys/functionList?_=1450675497120
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T13:24:57+08:00 ] 127.0.0.1 /sys/menuTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_menu` ORDER BY seq asc  [ RunTime:0.0010s ]
+
+[ 2015-12-21T13:24:57+08:00 ] 127.0.0.1 /sys/functionData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT sys_function.*,sys_menu.text as relegation FROM `sys_function` INNER JOIN sys_menu ON sys_menu.menu_id = sys_function.menu_id  LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_function` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T13:24:57+08:00 ] 127.0.0.1 /sys/roleList?_=1450675497495
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-12-21T13:24:57+08:00 ] 127.0.0.1 /sys/roleData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_role` LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_role` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-12-21T13:24:58+08:00 ] 127.0.0.1 /sys/userList?_=1450675498000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T13:24:58+08:00 ] 127.0.0.1 /sys/userData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_user` LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T13:24:58+08:00 ] 127.0.0.1 /sys/functionList?_=1450675498467
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T13:24:58+08:00 ] 127.0.0.1 /sys/menuTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_menu` ORDER BY seq asc  [ RunTime:0.0010s ]
+
+[ 2015-12-21T13:24:58+08:00 ] 127.0.0.1 /sys/functionData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT sys_function.*,sys_menu.text as relegation FROM `sys_function` INNER JOIN sys_menu ON sys_menu.menu_id = sys_function.menu_id  LIMIT 0,20   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_function` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T13:24:59+08:00 ] 127.0.0.1 /sys/menuList?_=1450675499433
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T13:24:59+08:00 ] 127.0.0.1 /sys/menuData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_menu` ORDER BY seq asc  [ RunTime:0.0010s ]
+
+[ 2015-12-21T13:25:01+08:00 ] 127.0.0.1 /sys/functionList?_=1450675501042
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T13:25:01+08:00 ] 127.0.0.1 /sys/menuTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_menu` ORDER BY seq asc  [ RunTime:0.0020s ]
+
+[ 2015-12-21T13:25:01+08:00 ] 127.0.0.1 /sys/functionData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT sys_function.*,sys_menu.text as relegation FROM `sys_function` INNER JOIN sys_menu ON sys_menu.menu_id = sys_function.menu_id  LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_function` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T13:25:01+08:00 ] 127.0.0.1 /sys/userList?_=1450675501577
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T13:25:01+08:00 ] 127.0.0.1 /sys/userData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT * FROM `sys_user` LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-12-21T13:25:02+08:00 ] 127.0.0.1 /sys/roleList?_=1450675502018
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T13:25:02+08:00 ] 127.0.0.1 /sys/roleData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_role` LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_role` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-21T13:25:02+08:00 ] 127.0.0.1 /sys/orgList?_=1450675502384
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T13:25:02+08:00 ] 127.0.0.1 /sys/orgData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_org`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+
+[ 2015-12-21T13:25:03+08:00 ] 127.0.0.1 /sys/menuList?_=1450675503011
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T13:25:03+08:00 ] 127.0.0.1 /sys/menuData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_menu` ORDER BY seq asc  [ RunTime:0.0000s ]
+
+[ 2015-12-21T13:25:03+08:00 ] 127.0.0.1 /sys/functionList?_=1450675503587
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T13:25:03+08:00 ] 127.0.0.1 /sys/menuTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_menu` ORDER BY seq asc  [ RunTime:0.0000s ]
+
+[ 2015-12-21T13:25:03+08:00 ] 127.0.0.1 /sys/functionData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT sys_function.*,sys_menu.text as relegation FROM `sys_function` INNER JOIN sys_menu ON sys_menu.menu_id = sys_function.menu_id  LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_function` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-12-21T13:25:04+08:00 ] 127.0.0.1 /sys/roleList?_=1450675504339
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-12-21T13:25:04+08:00 ] 127.0.0.1 /sys/roleData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_role` LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_role` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-12-21T13:25:04+08:00 ] 127.0.0.1 /sys/orgList?_=1450675504877
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-21T13:25:04+08:00 ] 127.0.0.1 /sys/orgData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Home\Behaviors\authBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sys_org`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+NOTIC: [8] Undefined index: text E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined index: icon_cls E:\PHPWorkspace\thinkphp_manage\Application\Home\Common\function.php 第 25 行.
+

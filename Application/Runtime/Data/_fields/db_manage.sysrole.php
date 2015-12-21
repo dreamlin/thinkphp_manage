@@ -1,0 +1,1 @@
+a:6:{i:0;s:7:"role_id";i:1;s:4:"text";i:2;s:6:"remark";i:3;s:6:"status";s:3:"_pk";s:7:"role_id";s:5:"_type";a:4:{s:7:"role_id";s:7:"int(11)";s:4:"text";s:11:"varchar(20)";s:6:"remark";s:12:"varchar(200)";s:6:"status";s:6:"int(1)";}}

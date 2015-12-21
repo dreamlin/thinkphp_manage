@@ -1,0 +1,1 @@
+a:6:{i:0;s:11:"function_id";i:1;s:4:"text";i:2;s:7:"menu_id";i:3;s:9:"resources";s:3:"_pk";s:11:"function_id";s:5:"_type";a:4:{s:11:"function_id";s:7:"int(11)";s:4:"text";s:11:"varchar(20)";s:7:"menu_id";s:7:"int(11)";s:9:"resources";s:12:"varchar(500)";}}

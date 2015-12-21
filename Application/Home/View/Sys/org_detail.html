@@ -1,0 +1,37 @@
+<form id="bt_org_from" class="form">
+    <table align="center">
+        <tr>
+            <td>父项：</td>
+            <td valign="middle"><input id="bt_org_comboTree"  name='pid' class="easyui-combotree" style="width:130px;" data-options="url:'/sys/orgComboData?org_id=${$data['org_id']}',valueField:'org_id',textField:'title'" value="${if $data['pid']}${$data['pid']}${else}0${/if}"> <img src="/Public/Images/clear.png" onclick="$('#bt_org_comboTree').combotree('clear');" style="cursor: pointer;vertical-align:middle;"></td>
+            <td>名称：</td>
+            <td><input name="title" type="text" value="${$data['title']}" class="easyui-validatebox" required="required"/></td>
+        </tr>
+        <tr>
+            <td>主管：</td>
+            <td><select id="bt_org_combogrid" class="easyui-combogrid" name="org_manager" style="width:130px;"  
+                        data-options="  
+                        panelWidth:420,
+                        pagination:true,
+                        multiple:true,
+                        editable:false,
+                        idField:'user_id',
+                        value:[${$data['org_manager']}],
+                        textField:'real_name',  
+                        url:'/sys/userData',  
+                        columns:[[  
+                        {field:'real_name',title:'姓名',width:100},  
+                        {field:'user_name',title:'账号',width:100},
+                        {field:'mail',title:'邮箱',width:120}
+                        ]]  
+                        "></select> <img src="/Public/Images/clear.png" onclick="$('#bt_org_combogrid').combogrid('clear');" style="cursor: pointer;vertical-align:middle;">
+            </td>
+            <td>排序：</td>
+            <td><input name="seq" type="text" class="easyui-numberbox" value="${if $data['seq']}${$data['seq']}${else}0${/if}" data-options="min:0,precision:0"/></td>
+        </tr>
+        <tr>
+            <td>描述：</td>
+            <td colspan="3"><textarea name="description" style="width: 345px;resize: none;height: 50px;">${$data['description']}</textarea></td>
+        </tr>
+    </table>
+    <input type="hidden" name="org_id" value="${$data['org_id']}">
+</form>

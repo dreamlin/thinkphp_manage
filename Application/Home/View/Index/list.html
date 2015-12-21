@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	${foreach from=$productList item=i}
+	<li>
+			<a class="a_title" href="/item/${$i['product_id']}/">${$i['title']}</a>
+			<strong class="strong_mmprice">美美价： ￥${$i['sale_price']}</strong>
+	</li> 
+	${/foreach}
+</body>
+</html>

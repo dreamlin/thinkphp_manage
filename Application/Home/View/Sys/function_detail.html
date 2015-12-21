@@ -1,0 +1,20 @@
+<form id="bt_function_from" class="form">
+    <table align="center">
+        <tr>
+            <td>名称：</td>
+            <td><input name="text" class="easyui-validatebox" required="required" type="text" value="${$data['text']}" style="width: 352px;"/></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>每个资源以分号(;)结束</td>
+        </tr>
+        <tr>
+            <td>资源：</td>
+            <td>
+                <textarea class="easyui-validatebox" required="required" name="resources" style="width: 348px;resize: none;height: 60px;">${$data['resources']}</textarea>
+            </td>
+        </tr>
+    </table>
+    <input type="hidden" name="function_id" value="${$data['function_id']}">
+    <input type="hidden" name="menu_id" value="${$data['menu_id']}">
+</form>

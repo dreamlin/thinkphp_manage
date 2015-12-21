@@ -1,0 +1,27 @@
+<table id="bt_common_chooseuser_user_grid"  data-options="toolbar:'#bt_common_chooseuser_user_grid_toolbar'"></table>
+<div id="bt_common_chooseuser_user_grid_toolbar"> 
+    <form> <label>姓名：</label><input type="text" name="Q_real_name_like"/> <label>邮箱：</label><input type="text" name="Q_mail_like"/> <label><a href="javascript:void(0)" class="easyui-linkbutton" id="bt_common_chooseuser_user_grid_seachBtn" iconCls="icon-search" plain="true">检索</a></label></form>
+</div>
+<script type="text/javascript"> NameSpace("BT.common.chooseuser", function() { var context = this; var $grid = $('#bt_common_chooseuser_user_grid');
+
+context.chooseuserGrid = $grid;
+
+context.ready = function() {
+    $grid.datagrid({
+        fit: true,
+        border: false,
+        pagination: true,
+        idField: 'user_id', //设定id列，以此支持翻页后能保存之前页的选中项
+        columns: [[
+                {checkbox: true},
+                {field: 'user_name', title: '账号', width: 150},
+                {field: 'real_name', title: '姓名', width: 150},
+                {field: 'mail', title: '邮箱', width: 150}
+            ]]
+
+    });
+    //绑定用户查询按钮事件
+    $('#bt_common_chooseuser_user_grid_seachBtn').click(function() {
+        $grid.datagrid('load', $(this).closest('form').toJson());
+    });
+}; }); </script>

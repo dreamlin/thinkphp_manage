@@ -1,0 +1,1 @@
+a:8:{i:0;s:6:"org_id";i:1;s:5:"title";i:2;s:3:"pid";i:3;s:11:"org_manager";i:4;s:3:"seq";i:5;s:11:"description";s:3:"_pk";s:6:"org_id";s:5:"_type";a:6:{s:6:"org_id";s:7:"int(11)";s:5:"title";s:12:"varchar(100)";s:3:"pid";s:7:"int(11)";s:11:"org_manager";s:11:"varchar(50)";s:3:"seq";s:7:"int(11)";s:11:"description";s:12:"varchar(200)";}}

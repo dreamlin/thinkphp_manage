@@ -1,0 +1,23 @@
+<form id="bt_user_from" class="form">
+    <table align="center">
+        <tr>
+            <td>账号：</td>
+            <td><input name="user_name" type="text" value="${$data['user_name']}" ${if $data['user_name']} readonly="readonly" ${/if} class="easyui-validatebox" required="required" maxlength="20"/></td>
+            <td>姓名：</td>
+            <td><input name="real_name" type="text" value="${$data['real_name']}" class="easyui-validatebox" required="required"  maxlength="16"/></td>
+        </tr>
+        <tr>
+            <td>密码：</td>
+            <td><input name="password" type="password" maxlength="16" ${if !$data['user_id']} class="easyui-validatebox" ${/if} required="required"/></td>
+            <td>邮箱：</td>
+            <td><input name="mail" type="text" class="easyui-validatebox" value="${$data['mail']}" data-options="validType: 'email'" required="required" maxlength="30"/></td>
+        </tr>
+        ${if $data['user_id']}
+        <tr>
+            <td>角色：</td>
+            <td valign="middle" colspan="3"><input id="bt_user_roles_combo"  name='role_ids' class="easyui-combobox" style="width:330px;" data-options='data:${$roles},valueField:"role_id",multiple:true,value:[${$data['role_ids']}]'> <img src="/Public/Images/clear.png" onclick="$('#bt_user_roles_combo').combobox('clear');" style="cursor: pointer;vertical-align:middle;"></td>
+        </tr>
+        ${/if}
+    </table>
+    <input type="hidden" name="user_id" value="${$data['user_id']}">
+</form>
