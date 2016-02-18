@@ -765,7 +765,11 @@ class SysController extends Controller
         
         $data["pid"] = $pid;
         $data["title"] = $title;
-        $data["org_manager"] = $org_manager;
+        if (! empty($org_manager)) {
+            $data["org_manager"] = $org_manager;
+        }else{
+            $data["org_manager"] = 0;
+        }
         $data["seq"] = $seq;
         $data["description"] = $description;
         
@@ -782,7 +786,7 @@ class SysController extends Controller
     {
         $org_id = getFormGetPostValue("org_id");
         $Model = M("SysOrg");
-        $Model->delete(org_id);
+        $Model->delete($org_id);
         $RoleUser = M("SysOrgUser");
         $RoleUser->where('org_id=%u', $org_id)->delete();
         $this->ajaxReturn(returnStatus());
